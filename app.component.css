@@ -1,0 +1,24 @@
+.container{
+  float: left;
+}
+.square{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000000;
+  margin: 1px;
+}
+
+.lastTouched{
+  border-radius: 50%;
+  height: 100%;
+  border: 1px solid salmon;
+  background-color: salmon;
+}
+
+.touched{
+  border-radius: 50%;
+  height: 100%;
+  border: 1px solid red;
+  background-color: red;
+}
+

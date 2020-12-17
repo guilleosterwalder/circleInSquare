@@ -1,0 +1,9 @@
+<div class="container" *ngFor="let square of squares">
+  <div class="square" (click)="touched(square.id)">
+    <div class="circle" 
+      [ngClass]="{'touched' : square.id == touch,
+              'lastTouched' : square.id == lastTouched}">
+     
+    </div>    
+  </div>
+</div>
